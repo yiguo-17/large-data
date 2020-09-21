@@ -1,3 +1,20 @@
+// OUTPUT FORMAT and data:
+// Mr. Percy Johnson
+// 4323 136th St
+// Glenville, Texas
+// 10200
+// ---
+// Mr. Pam Kraus
+// 136 Lala
+// Paris, NY
+// 43299
+// ---
+// - Use the data array that is provided as the data you will be passing into the function.
+// - Look at the data in the output and find the properties for that data
+// - Create a function addressList that takes a parameter, data
+// - Parse the data and output the data in the format listed above into the terminal
+// - If you are comfortable with destructuring or finish early use destructuring to name the variables that you are using for your output. 
+
 let data = [
   {
     results: [
