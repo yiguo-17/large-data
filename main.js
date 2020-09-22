@@ -187,14 +187,14 @@ function parseData(obj){
     let {gender,name,location,email,login,dob,}=lady;
     let {title,first,last} = name;
     let{street,city,state,country,postcode,}= location;
-    let{number,} = street;
+    let{number,name:strName} = street;
     let{date,age,}= dob
     let birthday = new Date(date);
     let day = ('0'+ birthday.getDate()).slice(-2);
     let month = ('0'+(birthday.getMonth()+1)).slice(-2);
     let year = birthday.getFullYear();
     console.log(`${title} ${first} ${last}
-    ${number} ${street.name}
+    ${number} ${strName}
     ${city} ${state}
     ${country} ${postcode}
     Email: ${email}
